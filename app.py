@@ -23,7 +23,6 @@ class Article(db.Model):
 #     db.create_all()
 
 
-@app.route('/home')
 @app.route('/')
 def index():
     return render_template('index.html')
